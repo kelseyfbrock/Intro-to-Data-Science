@@ -1,0 +1,19 @@
+---
+title: "01-Assignment_Brock"
+author: "Kelsey Brock"
+date: "5/5/2019"
+output: html_document
+
+---
+
+```
+#1
+"Hello, World"
+
+#2
+library(tidyverse)
+sc%>%filter(adm_rate<.1)%>%summarize(mean_debt=mean(debt_mdn,na.rm=TRUE))
+
+
+## R Markdown
+
